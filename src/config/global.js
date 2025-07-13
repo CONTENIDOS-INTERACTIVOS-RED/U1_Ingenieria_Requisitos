@@ -42,13 +42,13 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Entrevistas con stakeholders',
+        titulo: 'Entrevistas con <em>stakeholders</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Identificación y clasificación de stakeholders',
+            titulo: 'Identificación y clasificación de <em>stakeholders</em>',
             hash: 't_2_1',
           },
           {
@@ -306,14 +306,14 @@ export default {
         'método de entrevista con preguntas guía que permiten flexibilidad para profundizar, según las respuestas del entrevistado.',
     },
     {
-      termino: 'Historia de usuario (User Story)',
+      termino: 'Historia de usuario (<em>User Story</em>)',
       significado:
         'descripción breve y simple de una funcionalidad deseada escrita desde la perspectiva del usuario: "Como [rol], quiero [funcionalidad] para [beneficio]".',
     },
     {
       termino: 'MoSCoW',
       significado:
-        'técnica de priorización que clasifica los requisitos en cuatro categorías: Must have (imprescindibles), Should have (importantes), Could have (deseables), Won’t have (no necesarios por ahora).',
+        'técnica de priorización que clasifica los requisitos en cuatro categorías: <em>Must have</em> (imprescindibles), <em>Should have</em> (importantes), <em>Could have</em> (deseables), <em>Won’t have</em> (no necesarios por ahora).',
     },
     {
       termino: 'Necesidad',
@@ -346,7 +346,7 @@ export default {
         'persona o grupo que tiene interés o se ve afectado por un sistema, producto o proyecto. Incluye usuarios finales, clientes, desarrolladores, patrocinadores, entre otros.',
     },
     {
-      termino: 'Story Mapping',
+      termino: '<em>Story Mapping</em>',
       significado:
         'Técnica visual que organiza historias de usuario en un mapa para mostrar la relación entre tareas y valor entregado al usuario.',
     },
@@ -356,9 +356,9 @@ export default {
         'Proceso mediante el cual se confirma que los requisitos documentados reflejan correctamente las necesidades del cliente y son técnicamente viables.',
     },
     {
-      termino: 'Workshop',
+      termino: '<em>Workshop</em>',
       significado:
-        'Taller participativo en el que diversos stakeholders colaboran para identificar, discutir y priorizar requisitos del sistema.',
+        'Taller participativo en el que diversos <em>stakeholders</em> colaboran para identificar, discutir y priorizar requisitos del sistema.',
     },
   ],
 }
